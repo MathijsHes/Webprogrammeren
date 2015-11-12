@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Puzzel 4</title>
+	</head>
+	<body>
+		<h1>Puzzel 4!</h1>
+		<script> 
+			var aankoopbedrag = prompt("Wat is het aankoopbedrag?");
+			var aankoopprint = parseInt(aankoopbedrag);
+			var totaalbedrag = aankoopprint + 3.95;
+
+			if (aankoopbedrag < 25)
+			{
+				alert("Uw aankoopbedrag is onder €25 dus u betaald " +totaalbedrag+ " met verzendkosten")
+			}
+			else {
+				alert("Uw aankoopbedrag is boven €25 dus u hoeft geen verendkosten te betalen. Uw totale prijs is " +aankoopbedrag+ " zonder verzendkosten")
+			}
+		</script>
+	</body>
+</html>

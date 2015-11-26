@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<title> Puzzel 5_02 </title>
+	<meta charset="UTF-8">
+</head>
+<body>
+<script>
+	function pond()
+	{
+		var euroPond = myForm.elements["euro"].value * 0.71;
+		document.getElementById("demo").innerHTML =	euroPond.toFixed(2);
+	};
+
+	function peso()
+	{
+		var euroPond = myForm.elements["euro"].value * 18.06 ;
+		document.getElementById("demo").innerHTML =	euroPond.toFixed(2);
+	};
+
+	function dollar()
+	{
+		var euroPond = myForm.elements["euro"].value * 1.08 ;
+		document.getElementById("demo").innerHTML =	euroPond.toFixed(2);
+	};
+
+	function yen()
+	{
+		var euroPond = myForm.elements["euro"].value * 132.04 ;
+		document.getElementById("demo").innerHTML =	euroPond.toFixed(2);
+	};
+
+</script>
+
+<form id="myForm">
+  Euro: <input type="text" name="euro"><br>
+</form>
+<button onclick="pond()">Pond</button>
+<button onclick="peso()">Peso</button>
+<button onclick="dollar()">Dollar</button>
+<button onclick="yen()">Yen</button>
+
+<p id="demo"></p>
+
+   
+
+
+</body>
+</html>

@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title> Puzzel 2 week 2 </title>
+	<meta charset="UTF-8">
+	<script> 
+	var berekenBMI = function()
+	{
+		var gewicht = prompt("Wat is uw gewicht?");
+		var lengte = prompt("Hoe lang bent u?");
+		var uitrekenen = parseInt(gewicht / (lengte*lengte));
+
+		if (uitrekenen > 25){
+
+			alert("U heeft overgewicht en uw BMI is " +uitrekenen);
+		}
+		else {
+			alert("Uw gewicht is normaal of te licht uw BMI is " +uitrekenen);
+		}
+	};
+
+	</script>
+</head>
+<body>
+	
+	<button onclick="berekenBMI()">Reken uit!</button>
+
+
+
+
+</body>
+</html>

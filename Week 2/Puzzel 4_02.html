@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<title> Puzzel 4_02 </title>
+	<meta charset="UTF-8">
+</head>
+<body>
+<script>
+	var myFunction = function()
+	{
+		var woord1 = myForm.elements["woord1"].value;
+		var woord2 = myForm.elements["woord2"].value;
+
+		if (woord1.length > woord2.length){
+
+			document.getElementById("demo").innerHTML = ("Woord 1 is groter dan woord 2 en dat woord bestaat uit " +woord1.length+ " letters.");
+		}
+		else {
+			document.getElementById("demo").innerHTML = ("Woord 2 is groter dan woord 1 en dat woord bestaat uit " +woord2.length+ " letters.");
+		}
+	};
+</script>
+
+<form id="myForm">
+  Woord 1: <input type="text" name="woord1"><br>
+  Woord 2: <input type="text" name="woord2"><br>
+</form>
+<button onclick="myFunction()">Vergelijk!</button>
+<p id="demo"></p>
+
+   
+
+
+</body>
+</html>

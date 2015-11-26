@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title> Puzzel 1 week 2 </title>
+	<meta charset="UTF-8">
+	<script> 
+	var vergelijkWoorden = function()
+	{
+		var woord1 = prompt("Wat is het eerste woord?");
+		var woord2 = prompt("Wat is het tweede woord?");
+
+		if (woord1.length > woord2.length){
+
+			alert("Woord 1 is groter dan woord 2 en dat woord bestaat uit " +woord1.length+ " letters.");
+		}
+		else {
+			alert("Woord 2 is groter dan woord 1 en dat woord bestaat uit " +woord2.length+ " letters.");
+		}
+	};
+
+	</script>
+</head>
+<body>
+	
+	<button onclick="vergelijkWoorden()">Vergelijk!</button>
+
+
+
+
+</body>
+</html>

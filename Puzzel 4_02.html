@@ -1,0 +1,56 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Opgave 4_02</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+	<script>
+		$(document).ready(function(){
+			
+			
+			$('#cijfer').keyup(function(){
+				var cijfer 	= parseInt($('#cijfer').val());
+				var number1 	= 'uno';
+				var number2 	= 'dos';
+				var number3 	= 'tres';
+				var number4 	= 'cuatro';
+				var number5 	= 'cinco';
+				var number6 	= 'seis';
+				var number7 	= 'siete';
+				var number8 	= 'ocho';
+				var number9 	= 'nueve';
+				var number10 	= 'diez';
+				$('#input').text('');
+				if (cijfer === 1) {
+					$('#input').text('Het Spaanse woord voor '+cijfer+' is '+number1);
+				} else if (cijfer === 2) {
+					$('#input').text('Het Spaanse woord voor '+cijfer+' is '+number2);
+				} else if (cijfer === 3) {
+					$('#input').text('Het Spaanse woord voor '+cijfer+' is '+number3);
+				} else if (cijfer === 4) {
+					$('#input').text('Het Spaanse woord voor '+cijfer+' is '+number4);
+				} else if (cijfer === 5) {
+					$('#input').text('Het Spaanse woord voor '+cijfer+' is '+number5);
+				} else if (cijfer === 6) {
+					$('#input').text('Het Spaanse woord voor '+cijfer+' is '+number6);
+				} else if (cijfer === 7) {
+					$('#input').text('Het Spaanse woord voor '+cijfer+' is '+number7);
+				} else if (cijfer === 8) {
+					$('#input').text('Het Spaanse woord voor '+cijfer+' is '+number8);
+				} else if (cijfer === 9) {
+					$('#input').text('Het Spaanse woord voor '+cijfer+' is '+number9);
+				} else if (cijfer === 10) {
+					$('#input').text('Het Spaanse woord voor '+cijfer+' is '+number10);
+				} else {
+					$('#input').text('Het Spaanse woord voor '+cijfer+' is helaas niet beschikbaar');
+				}
+			});
+		});
+		
+	</script>
+</head>
+<body>
+	<input type="text" id="cijfer"><p id="input"></p>
+</body>
+</html>

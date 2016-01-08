@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<meta charset="UTF-8">
+	<title>Puzzel 4_03</title>
+	<script>
+		$(document).ready(function(){
+			
+			$('#button').click(function(){
+				var lotnummer = parseInt($('#lotnummer').val());
+				
+				var winningLotnummers = [ 11234, 44356, 22342, 99864, 22234];
+				found = $.inArray(lotnummer, winningLotnummers);
+				if (found === -1) {
+					$('#field').text('U heeft helaas niet gewonnen met lotnummer: '+lotnummer);
+				} else {
+					$('#field').text('Hoera! U heeft gewonnen met lotnummer: '+lotnummer);
+				}
+			});
+		});
+		
+	</script>
+</head>
+<body>
+	<h1>Controleer hier je lot!</h1>
+	Lotnummer: <input type="text" id="lotnummer"> <br>
+	<button id="button">Controleer</button><br>
+	<p id="field"></p>
+</body>
+</html>

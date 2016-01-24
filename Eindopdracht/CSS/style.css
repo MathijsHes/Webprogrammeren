@@ -1,0 +1,577 @@
+body {
+background-image: url("../IMG/achtergrondding.jpg");
+color: white;
+
+}
+
+#effect {
+	width: 1580px;
+	height: 450px;
+	background-color:orange;
+	margin-top: 100px;
+	text-align: center;
+	float:left;
+}
+
+#inlogForm {
+	margin-top: 20px;
+	font-size: 25px;
+}
+
+#inlog {
+	margin-top: 20px;
+}
+
+#ww{
+width: 200px;
+height: 25px;
+
+}
+
+#inlognaam{
+width: 200px;
+height: 25px;
+}
+
+#logo{
+	width: 350px;
+	height: 80px;
+	font-size: 50px;
+	font-family: Helvetica;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding-top: 20px;
+	border-right:#2D2D2D solid 5px;
+	border-top: #2D2D2D solid 5px;
+	border-bottom: #2D2D2D solid 5px;
+	border-left: #2D2D2D solid 5px;
+}
+
+
+#registrerenlink{
+color: #FFF;
+font-family: Helvetica;
+margin: 0 auto;
+
+}
+
+.button
+{
+	display: inline-block;
+	padding: 1.3em 3em;
+	background: #F2762E;
+	border-radius: 30px;
+	letter-spacing: 0.20em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #FFF;
+}
+
+.button:hover
+{
+	background: #E36922;
+}
+
+.button-big
+{
+	padding: 1.6em 4em;
+	font-size: 1.4em;
+	font-weight: 900;
+}
+
+
+/* Registreren-------------------------*/ 
+#container{
+	float: left;
+	width: 1580px;
+	height: 650px;
+	background-color:orange;
+	margin-top: 100px;
+	float:left;
+	text-align: center;
+	font-family: Helvetica;
+}
+
+#registrerenhier{
+float: right;
+width: 580px;
+
+}
+
+#registrerenformulier
+{
+float: left;
+width: 980px;
+
+}
+
+#demos{
+float:left;
+margin-top: 50px;
+margin-left: 625px;
+}
+
+#registreer{
+	float: left;
+	margin-top: 75px;
+margin-left: 650px;
+}
+
+#geslachtkeuze{
+	float:left;
+}
+
+.profielfoto{
+font-size: 25px;
+
+}
+.registerhere{
+display: inline-block;
+float: left;
+width: 300px;
+height: 30px;
+margin-top: 20px;
+ font-size: 15px;
+}
+
+.registertitels{
+    display: inline-block;
+    float: left;
+    clear: left;
+    width: 250px;
+    text-align: right;
+    margin-left: 350px;
+    padding-right: 20px;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.selector{
+	margin-left: 20px;
+	margin-top: 20px;
+float: left;
+width: 75px;
+height: 30px;
+font-family: Helvetica;
+
+}
+
+.geslacht{
+margin-left: 20px;
+margin-top: 20px;
+float: left;
+font-family: Helvetica;
+
+}
+
+.gender{
+margin-left: 20px;
+margin-top: 20px;
+float: left;
+font-family: Helvetica;
+
+}
+
+.profile-pic {
+    max-width: 300px;
+    max-height: 300px;
+    min-width: 299px;
+    min-height: 299px;
+    display: block;
+    margin-left: 150px;
+    margin-bottom: 10px;
+    border-radius: 60px;
+}
+
+/* Timeline-------------------------*/ 
+
+article {
+font-family: Helvetica;
+font-color: white;
+font-size: 25px;
+background-color: orange;
+
+
+}
+
+textarea {
+	float: left;
+	width: 600px;
+	height: 100px;
+   resize: none;
+   font-family: Helvetica;
+   font-size: 25px;
+
+}
+
+#container1 {
+	width: 1200px;
+	height: 750px;
+	background-color:#C0C0C0;
+	margin: 0 auto;
+
+}
+
+.reagerenField{
+	font-family: Helvetica;
+font-color: white;
+font-size: 25px;
+background-color: orange;
+padding-bottom: 25px;
+}
+#sidebar{
+float: left;
+	width: 250px;
+	height: 750px;
+	background-color: orange;
+
+
+}
+
+#tijdlijn{
+
+float: left;
+	width: 950px;
+	height: 750px;
+
+
+}
+#banner{
+	float: left;
+	width: 950px;
+	height: 250px;
+	background-image: url("http://www.joustercourant.nl/files/2012/12/vallende-sterren.jpg");
+
+}
+
+#textarea{
+	float: left;
+	width: 950px;
+	height: 550px;
+	margin-left: 130px;
+	margin-top: 20px;
+	padding-top: 10px;
+
+
+}
+
+.timeline-post{
+ width: 600px;
+ height: 130px;
+ background-color: orange;
+ font-size: 20px;
+ margin-top: 30px;
+
+}
+
+
+#staatpost{
+ width: 590px;
+  height: 120px;
+ background-color: orange;
+ font-size: 20px;
+ padding-top: 20px;
+ border: 1px #FFF solid;
+
+
+}
+.naam{
+	font-size: 30px;
+}
+
+.reactie{
+	font-size: 20px;
+}
+
+#picca{
+	max-width:250px ;
+	max-height:250px;
+	min-height: 250px;
+	min-width:250px ;
+	margin-left: 80px;
+	border-radius: 60px;
+}
+
+#profielinformatie{
+	font-family: Helvetica;
+	font-size: 20px;
+	float: left;
+	color: orange;
+	margin-left: 50px;
+	padding-top: 20px;
+}
+
+#naampje{
+	font-size: 30px;
+}
+
+#logo1{
+	width: 200px;
+	height: 80px;
+	font-size: 50px;
+	font-family: Helvetica;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding-top: 20px;
+	padding-left: 30px;
+	border-right:#2D2D2D solid 5px;
+	border-top: #2D2D2D solid 5px;
+	border-bottom: #2D2D2D solid 5px;
+	border-left: #2D2D2D solid 5px;	
+}
+
+.buttons:hover {
+background-color: #FFB337;
+}
+
+.buttons{
+	width: 246px;
+	height: 50px;
+	text-align: center;
+	margin-top: 10px;
+	padding-top: 10px;
+	font-size: 25px;
+	font-family: helvetica;
+	background-color: #FF8C00;
+	border-right:#2D2D2D solid 2px;
+	border-top: #2D2D2D solid 2px;
+	border-bottom: #2D2D2D solid 2px;
+	border-left: #2D2D2D solid 2px;	
+
+
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+.likeButton{
+	font-size: 15px;
+	padding-right: 20px;
+	margin-left: 350px;
+	margin-right: 5px;
+	max-height: 20px;
+	}
+
+
+.reagerenButton{
+	font-size: 15px;
+}
+
+
+#datetjes{
+	text-decoration: none;
+	color: white;
+	font-family: Helvetica;
+	font-size: 16px;
+	padding-left: 5px;
+
+}
+
+li{
+list-style-type: none;
+}
+
+.addCommentOnPost{
+	width: 595px;
+	margin-top:30px;
+	height: 50px;
+
+}
+
+#inlognaamtimeline{
+	font-family: Helvetica;
+	font-size: 17px;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+
+#icon{
+	max-height:80px;
+	max-width:80px ;
+	min-height: 80px;
+	min-width: 80px;
+	float: right;
+	margin-right: 20px;
+	border-radius: 60px;
+}
+
+
+
+/*----------------- Ligthbox ----------*/ 
+
+.icon{
+	width: 75px;
+	height: 75px;
+	float: left;
+	margin-top:30px;
+	margin-left: 5px;
+}
+
+.lightboxx{
+	width: 260px;
+}
+
+#addTimelinePostButton{
+		display: inline-block;
+	padding: 1.3em 3em;
+	background: #F2762E;
+	border-radius: 30px;
+	letter-spacing: 0.20em;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: #FFF;
+}
+/* Dates--------------------------------------*/
+
+#achtergrondje{
+		width: 1580px;
+	height: 450px;
+	background-color:orange;
+	margin-top: 100px;
+	float:left;
+	font-family: Helvetica;
+}
+
+.currentdates{
+	margin-top: 50px;
+	height: 300px;
+	float: left;
+}
+
+.new{
+	float: right;
+	margin-right: 100px;
+	margin-top: 50px;	
+}
+
+#datepicca{
+	max-width:80px ;
+	max-height:80px;
+	min-height: 80px;
+	min-width:80px ;
+}
+
+#groep1{
+	height: 300px;
+	float: left;
+	padding-right: 15px;
+
+}
+#groep2{
+	height: 300px;
+	float: left;
+		padding-right: 15px;
+	
+}
+#groep3{
+	height: 300px;
+	float: left;
+		padding-right: 15px;
+	
+}
+
+#toptitel{
+	margin-left: 350px;
+	font-size: 35px;
+
+}
+/* Berichten ----------------------------------------*/
+
+.berichtnaam{
+	font-family: Helvetica;
+	font-size: 25px;
+	float: left
+}
+
+.online{
+	font-size: 15px;
+	color: #00FF00;
+}
+
+.onlineVrienden{
+	float: left;
+	width: 425px;
+}
+
+#offlineVrienden{
+	float:right;
+	width: 425px;
+}
+
+.offline{
+	color:#FF0000;
+}
+
+#vriendenlijst{
+	float: left;
+	margin-top: 20px;
+    margin-left: 50px;
+}
+
+#chatfunctie{
+
+}
+
+#berichtenoverzicht{
+		float: left;
+	margin-left: 200px;
+}
+
+.chatten{ 
+	width: 350px;
+    height: 150px;
+    border-radius: 5px; 
+    border-style: solid;
+    border-color: orange;
+    border-width:2px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+#berichtenoverzicht{
+    width: 750px;
+    height: 260px; 
+    border-color: orange;
+    border-style: solid;
+    border-width:2px;
+    margin-left: 20px;
+    overflow: scroll;
+    margin-left: 100px;
+
+}
+.chatleft{
+    border-radius: 5px; 
+    border-color: red;
+    border-width:2px;
+    border-style: solid;
+    width: 550px;
+    float:left; 
+    padding-left: 10px;
+    text-align: left; 
+}
+
+.chatright{
+    border-color: orange;
+    border-width:2px;
+    border-style: solid;
+    width: 550px;
+    float:right; 
+    padding-right: 10px;
+    text-align: right; 
+}
+#chatberichten{
+    width: 350px;
+    height: 50px;
+    margin-left: 370px;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+#chatfunctie{
+	float: left;
+height: 100px;
+	padding-left: 100px;
+}

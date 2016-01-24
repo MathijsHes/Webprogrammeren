@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head> 
+	<title> Tijdlijn </title>
+	<meta charset="UTF-8">
+	<link href="CSS/style.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
+	<script src="java.js" type="text/javascript"></script>
+	<link href="CSS/lightbox.css" rel="stylesheet">
+</head>
+<body>
+<div id="container1">
+<div id="sidebar">
+	<label id="inlognaamtimeline">Ingelogd als Mathijs Hes</label>
+	<a href="inlogpagina.html" id="inlognaamtimeline">Log uit!</a>
+	<h1 id="logo1"> Timder </h1>
+	
+	<a  href="timeline.html"><div class="buttons"> Home </div></a><br/>
+	<a  href="dates.html"><div class="buttons"> Dates </div></a><br/>
+	<a  href="berichten.html"><div class="buttons"> Chatten </div></a><br/>
+	
+	<div id="datetjes">
+	<label ="titletje"> Uw Dates: </label>
+		<ul id="datetjes">
+		<li><a href="dates.html">Gertruida van den Berg</a></li>
+		<li><a href="dates.html">Irritrea Kaaskoek</a></li>
+		<li><a href="dates.html">Melanie de Hoes</a></li>
+		<li><a href="dates.html">Petronella Kaaltje</a></li>
+		<li><a href="dates.html">Boudewenijne Kieltje</a></li>
+		<li><a href="dates.html">Keesjse Kit</a></li>
+		</ul>
+</div>
+<div class="lightboxx">
+<a href="https://scontent-ams3-1.xx.fbcdn.net/hphotos-xft1/t31.0-8/11144456_803974616389112_6614084483907216039_o.jpg" data-lightbox="lightbox" data-title="My caption"><img class="icon" src="https://scontent-ams3-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-0/p118x118/11907762_803974616389112_6614084483907216039_n.jpg?oh=4d9f6bebebe07160b2398913425813c2&oe=5742AE00"/></a>
+
+<a href="https://scontent-ams3-1.xx.fbcdn.net/hphotos-xft1/v/t1.0-9/11863290_803974576389116_5092464975296917005_n.jpg?oh=b120bd0a2ee423eb994410d0856d0d6b&oe=572E61B9" data-lightbox="lightbox" data-title="Click the right half of the image to move forward."><img class="icon" src="https://scontent-ams3-1.xx.fbcdn.net/hphotos-xft1/v/t1.0-0/p110x80/11863290_803974576389116_5092464975296917005_n.jpg?oh=819f211757dca84795717cf66dbb0b17&oe=57379BE7" alt=""></a>
+<a href="https://scontent-ams3-1.xx.fbcdn.net/hphotos-xpt1/t31.0-8/11864826_1001755273214714_4485302606401659692_o.jpg" data-lightbox="lightbox"><img class="icon" src="https://scontent-ams3-1.xx.fbcdn.net/hphotos-xpf1/v/t1.0-0/s180x540/11817284_1001755273214714_4485302606401659692_n.jpg?oh=e3557f87fee714b30a37992258e01207&oe=56FD8E8D"/></a>
+</div>
+</div>
+	<div id="tijdlijn">
+		<div id="banner">
+			<p id="profielinformatie"><label id="naampje"> Mathijs Hes</label><br/> 18 jaar <br/> IJsselstein <br/> Geïnteresseerd in vrouwen <br/> Status: Hot</p>
+			<a href="https://scontent-ams3-1.xx.fbcdn.net/hphotos-xft1/v/t1.0-9/10259829_840382579414982_2348342420181825525_n.jpg?oh=d922b934ed96069de9c72c8212f49c2d&oe=573DF635"data-lightbox="profielfototje" data-title="Profielfoto"><img id="picca" src="https://scontent-ams3-1.xx.fbcdn.net/hphotos-xft1/v/t1.0-9/10259829_840382579414982_2348342420181825525_n.jpg?oh=d922b934ed96069de9c72c8212f49c2d&oe=573DF635" alt="matoise" /></a>
+		</div>
+		<div id="textarea" style="overflow-y:scroll; width:820px; height:470px; margin-right:400px;">
+			<div class="timeline-add-post">
+					<div id="messagebox">
+						<form class="add-post">
+							<div class="textarea">
+								<textarea rows= "4" cols= "100" id="addTimelineArea" name="add-posts" placeholder="Geef Mathijs een compliment"></textarea>
+								<br>
+							</div>
+						</form>
+						<button id="addTimelinePostButton">Complimenteer</button>
+						<span id="errorTimeline"></span>
+					</div>
+				</div>
+			<div class="timeline-post"> 
+				<div class="timeline-post">
+
+					<label class="naam">Gerda Diederikzoon</label><img id="icon" src="https://scontent-ams3-1.xx.fbcdn.net/hphotos-xla1/v/t1.0-9/12508801_1688457461431585_1493281785162504320_n.jpg?oh=cdf06d80dadb41e1030336a8fd3c0b69&oe=572E3FB1" alt="matoise" /><br/><br/>
+					<label class="reactie">Lekker pittig hoor!<label></br>
+						<div>
+						<a class="likeButton">Vind ik leuk</a><a class="reagerenButton">Reageren</a><br></div>
+						<div class="likeField" style="display:none;">Mathijs Hes vind dit leuk! </div>
+						<div class="reagerenField" style="display:none;">
+							<div class="yoga"></div>
+							<textarea type="text" class="addCommentOnPost" name="add-posts" placeholder="Reageer op het compliment"></textarea></div>
+							</div>
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<script src="lightbox-plus-jquery.js"></script>
+</body>
+</html>
